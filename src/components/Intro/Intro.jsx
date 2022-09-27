@@ -28,10 +28,10 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Rahman Asad</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Web developer with high level of experience in working with React and Node
+            , producing the Quality work. experience working in agile environment and converting requirements into life. I work in a complete lifeCycle methodology like gathering requirements, planning development, developing and testing. I follow test driven development approach in my work.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +39,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a to='https://github.com/rahmanasad222'>
+            <img src={Github} alt="githubUrl" />
+            </a>
+            <a to='https://www.linkedin.com/in/asad-rahman-0468a617b/'>
+          <img src={LinkedIn} alt="LinkedinUrl" />
+            </a>
+            <a to=''>
+          <img src={Instagram} alt="InstagramUrl" />
+            </a>
         </div>
       </div>
       {/* right image side */}
@@ -75,7 +81,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="React/Node" text2="MERN" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

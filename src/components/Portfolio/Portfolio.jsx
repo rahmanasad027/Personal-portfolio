@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
+import capture from '../../img/capture.png'
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
@@ -23,6 +24,11 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a href="https://brilliant-truffle-c34a00.netlify.app/">
+          <img src={capture} alt="" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <img src={Sidebar} alt="" />
         </SwiperSlide>
